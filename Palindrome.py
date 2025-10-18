@@ -8,4 +8,4 @@ for i in palindrome_words:
     if i > longest_pal_word:
         longest_pal_word = i
 print(f"Palindrome words: {palindrome_words}")
-print(f"Longest palindrome word: {longest_pal_word}, count: {palindrome_words.count(longest_pal_word)}")
+print(f"Longest palindrome word: {longest_pal_word}, length: {len(longest_pal_word)}, count: {palindrome_words.count(longest_pal_word)}")
