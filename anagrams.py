@@ -2,7 +2,6 @@
 
 # Qeyd : əgər yoxdursa "-1" çapa versin
 
-sentence_ = "Listen to the silent notes"
 def anagrams(sentence):
     word_count_dict = dict()
     word_dict = dict()
@@ -26,5 +25,7 @@ def anagrams(sentence):
                     print(item)
     except Exception as e:
         print(e)
-        
+
+sentence_ = "Listen to the silent notes"
+
 anagrams(sentence_)
