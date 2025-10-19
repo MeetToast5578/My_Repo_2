@@ -1,1 +1,0 @@
-sentence = "Listen to the silent notes"
